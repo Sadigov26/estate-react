@@ -1,0 +1,50 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+color: aliceblue;
+border-bottom: 2px solid rgb(192, 190, 190);
+    .containerHeader {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 80%;
+
+        .containerHeaderLogo {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .containerHeaderNavbar {
+            li {
+                list-style: none;
+
+            }
+
+            ul {
+                display: flex;
+                gap: 20px;
+            }
+
+            a {
+                text-decoration: none;
+                color: rgb(255, 255, 255);
+            }
+        }
+
+        .containerHeaderNumber {
+            padding: 12px 20px;
+            background-color: orangered;
+        }
+    }
+}
